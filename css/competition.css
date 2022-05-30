@@ -568,3 +568,26 @@ color: #000000;
     
 
 }
+
+/* ---------------------------------- */
+
+.img1,.img2,.img3{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.text1,.text2,.text3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 42px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.015em;
+    
+    color: #202124;
+}

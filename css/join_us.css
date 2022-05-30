@@ -185,6 +185,7 @@ color: #202124;
 
 .footer{
     box-shadow: 0px -5px 8px 1px rgba(199,199,199,1);
+    /* border: #3C3C43 4px solid; */
     margin-top: 391px;
     display: flex;
     flex-direction: row;
@@ -200,12 +201,12 @@ color: #202124;
 .footer-content{
     display: flex;
     flex-wrap: wrap;
-    gap: 111px;
+    gap: 94px;
     align-items:flex-start;
 }
 
 .newsletter{
-    width: 366.17px;
+    width: 307px;
 
 }
 
@@ -267,6 +268,7 @@ color: #000000;
     /* gap:-10px; */
 }
 
+
 @media screen and (max-width: 1000px) {
 
     .nav-img{
@@ -307,6 +309,7 @@ color: #000000;
         display: flex;
         gap: 2px;
     }
+    
 
 }
 
