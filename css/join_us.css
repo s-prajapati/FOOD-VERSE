@@ -1,0 +1,276 @@
+.navbar {
+    /* width: 100%; */
+    /* height: 126px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 43px 142px 0px;
+}
+
+#join{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    /* identical to box height, or 111% */
+    color: #FD5956;
+    /* text-decoration: underline; */
+    /* text-decoration-color: ; */
+
+}
+
+.active-line{
+    height: 2px;
+    width: 30px;
+    background:#FD5956;
+    
+}
+
+
+.curvy-line{
+        
+    
+    position: absolute;
+    
+    z-index: -100;
+    
+    
+    }
+
+.bg-shadow{
+
+    position: absolute;
+    z-index: -100;
+    right: 0;
+}
+
+@media screen and (max-width: 1000px) {
+ 
+.curvy-line{
+    display: none;
+}
+
+    
+}
+
+
+
+
+
+
+
+
+
+.nav-tabs {
+    display: flex;
+    flex-direction: row;
+    gap: 36px;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 20px;
+/* identical to box height, or 111% */
+
+
+color: #000000;
+}
+@media screen and (max-width: 1000px) {
+ 
+    .nav-tabs{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+       
+        
+}
+
+
+.join-us{
+    margin-top: 57px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.line{
+    background: #AC1F2D;
+    width: 142px;
+    height: 6px;
+}
+
+.heading{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 75px;
+    /* display: flex;
+    align-items: center;
+    text-align: center; */
+    letter-spacing: -0.015em;
+
+    color: #202124;
+
+}
+
+.tagline{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    /* or 36px */
+
+    /* display: flex;
+    align-items: center;
+    text-align: center; */
+    letter-spacing: -0.015em;
+    margin-top: 55px;
+    width: 50%;
+
+    color: #202124;
+}
+
+.blocks{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 125px;
+    margin-top: 155px;
+}
+
+.block1 ,.block2 ,.block3{
+    height: 354px;
+    width: 366px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background: #FFFFFF;
+box-shadow: 8px 133px 53px rgba(31, 32, 51, 0.01), 4px 75px 45px rgba(31, 32, 51, 0.03), 2px 33px 33px rgba(31, 32, 51, 0.05), 0px 8px 18px rgba(31, 32, 51, 0.05), 0px 0px 0px rgba(31, 32, 51, 0.05);
+}
+
+.text1 , .text2, .text3{
+    margin-top: 12px;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 42px;
+/* identical to box height */
+
+/* display: flex; */
+/* align-items: center; */
+/* text-align: center; */
+letter-spacing: -0.015em;
+
+color: #202124;
+
+}
+
+.footer{
+    border-top: #e7e7e7 solid 4px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35.68px 116px;
+    margin-top: 355px;
+    gap: 120px;
+    /* box-shadow: 0px -10px 20px #888; */
+}
+
+.footer-content{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 152.83px;
+}
+
+.newsletter{
+    width: 366.17px;
+
+}
+
+.news-heading , .campaign-heading,.useful-heading{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 29.5949px;
+line-height: 44px;
+letter-spacing: 0.02em;
+
+color: #000000;
+}
+.line1,.line2,.line3{
+    background: #AC1F2D;
+    height: 1.23px;
+    width: 65px;
+
+}
+.news-content,.link2,.link3,.terms{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 19.7299px;
+line-height: 30px;
+letter-spacing: 0.03em;
+
+color: #000000;
+
+
+}
+
+.footbar{
+    height: 126px;
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: row; */
+    justify-content: space-between;
+    padding: 43px 142px 0px;
+    align-items: center;
+    gap: 24px;
+}
+
+@media screen and (max-width: 700px) {
+    .nav-tabs{
+        margin-right: -100px;
+    }
+    .nav-img{
+        margin-left: -100px;
+    }
+    .join-us{
+        margin-top: 40px;
+    }
+    .blocks{
+        gap: 75px;
+    }
+    .footer-content{
+        gap: 50px;
+    }
+    .footer{
+        margin-top: 70px;
+        gap: 80px;
+        padding-left: 65px;
+    }
+    .icca{
+        margin-left: -50px;
+    }
+       
+        
+}
+
+
+a{
+    text-decoration: none;
+    color: #000000;
+}
+
