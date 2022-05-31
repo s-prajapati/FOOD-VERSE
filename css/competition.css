@@ -218,15 +218,20 @@ h2 {
   margin-top: 0px;
   transform: rotate(-405deg);
 }
+.logoholder{
+    margin-left:142px;
+}
 
 
 @media (max-width: 800px) {
-    
+    .logoholder{
+        margin-left: 0px;
+    }
     .white-line{
         display: none;
     }
     #firstcontainer{
-        margin-top: 100px;
+        padding-top: 80px;
     }
   .menu-button-container {
     display: flex;
@@ -252,6 +257,7 @@ h2 {
         padding: 1.5em 0;
         transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
     }
+    
     .menu > li {
         display: flex;
         justify-content: center;
@@ -266,9 +272,6 @@ h2 {
   }
 }
 
-.logoholder{
-    margin-left:142px;
-}
 
 
 
