@@ -29,44 +29,48 @@ html,body{
 }
 
 .ill1{
-    position: absolute;
-left: 18.75%;
+    /* Vector */
+
+position:relative;
+left: -2%;
 right: 18.75%;
-top: 18.75%;
+top: 57%;
 bottom: 18.75%;
 
-background: rgba(255, 255, 255, 0.2);
+background: inherit;
+
 }
 
 .ill2{
-    position: absolute;
-left: 15.62%;
-right: 18.75%;
-top: 25%;
-bottom: 25%;
-
-background: rgba(255, 255, 255, 0.2);
+    position: relative;
+    left: 25%;
+    right: 18.75%;
+    top: 80%;
+    bottom: 25%;
+    
+    background: inherit;
 }
 
 .ill3{
 
-position: absolute;
-left: 25%;
+position: relative;
+left: 0%;
 right: 28.13%;
-top: 18.75%;
+top: 33%;
 bottom: 18.76%;
+z-index: 100;
 
-background: rgba(255, 255, 255, 0.2);
+background: inherit;
 }
 
 .ill4{
-    position: absolute;
-left: 18.75%;
+    position: relative;
+left: 40%;
 right: 18.75%;
-top: 18.75%;
+top: 45%;
 bottom: 18.75%;
-
-background: rgba(255, 255, 255, 0.2);
+z-index: 100;
+background: inherit;
 }
 
 .white-line{
@@ -84,7 +88,7 @@ border-radius: 1px;
     background-position: center;
     background-size: cover;
     height: 100vh;
-    margin: 0;
+    margin:0;
     padding: 0;
 }
 
@@ -276,9 +280,10 @@ h2 {
 
 
 #firstcontainer{
-    height:400px;
+    height:500px;
+    padding-top: 45px;
     
-
+    
     background: #E74237;
 }
 
