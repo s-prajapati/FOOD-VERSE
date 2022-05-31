@@ -216,6 +216,12 @@ h2 {
 
 
 @media (max-width: 800px) {
+    .white-line{
+        display: none;
+    }
+    #firstcontainer{
+        margin-top: 100px;
+    }
   .menu-button-container {
     display: flex;
   }
@@ -633,6 +639,7 @@ color: #000000;
     .social-media{
         display: flex;
         gap: 2px;
+        margin-left: -70px;
     }
     
     
