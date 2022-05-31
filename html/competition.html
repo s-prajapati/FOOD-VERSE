@@ -70,19 +70,28 @@
            <div class="arrang1">
             <ul class="blocks">
                 <li class="block1">
-                    <div class="img1"><img src="../img/categimg1.svg" width="73.39" height="109.69" alt=""></div>
+                    <div class="img1">
+                        <img class="img1_color" src="../img/categimg1.svg" width="73.39" height="109.69" alt="">
+                        <img class="img1_shady" src="../img/categimg1_shady.svg" width="73.39" height="109.69" alt="">
+                    </div>
                     <div class="text1">
                         GLOBAL CHEFS <br> CHALLENGE
                     </div>
                 </li>
                 <li class="block2">
-                    <div class="img2"><img src="../img/categimg2.svg" width="85.39" height="115.05" alt=""></div>
+                    <div class="img2">
+                        <img class="img2_color" src="../img/categimg2.svg" width="85.39" height="115.05" alt="">
+                        <img class="img2_shady" src="../img/categimg2_shady.svg" width="85.39" height="115.05" alt="">
+                    </div>
                     <div class="text2">
                         GLOBAL PASTRY CHEFS <br> CHALLENGE
                     </div>
                 </li>
                 <li class="block3">
-                    <div class="img3"><img src="../img/categimg3.svg" width="61" height="123" alt=""></div>
+                    <div class="img3">
+                        <img class="img3_color" src="../img/categimg3.svg" width="61" height="123" alt="">
+                        <img class="img3_shady" src="../img/categimg3_shady.svg" width="61" height="123" alt="">
+                    </div>
                     <div class="text3">
                         GLOBAL YOUNG CHEFS <br> CHALLENGE
                     </div>
@@ -352,7 +361,7 @@
     
             
         </div>
-    
+        
         
      </div>
      <script src="https://code.jquery.com/jquery-3.6.0.js" ></script>
@@ -361,8 +370,30 @@
              var isactive = $(".blocks .block1").hasClass("active");
              if(isactive){
                  $(this).removeClass('active');
-             }else
-             $(this).addClass('active').siblings().removeClass('active');
+                 $('.blocks .block2 .text2').css('color','#202124');
+                 $('.blocks .block3 .text3').css('color','#202124');
+
+                 $('.blocks .block2 .img2_shady').css('display','none');
+                 $('.blocks .block2 .img2_color').css('display','flex');
+                 $('.blocks .block1 .img1_shady').css('display','none');
+                 $('.blocks .block1 .img1_color').css('display','flex');
+                 $('.blocks .block3 .img3_shady').css('display','none');
+                 $('.blocks .block3 .img3_color').css('display','flex');
+                }else{
+                    $(this).addClass('active').siblings().removeClass('active');
+                    $('.blocks .block2 .text2').css('color','#C2C2C2');
+                    $('.blocks .block3 .text3').css('color','#C2C2C2');
+                    $('.blocks .block1 .text1').css('color','#202124');
+
+                    $('.blocks .block2 .img2_shady').css('display','flex');
+                    $('.blocks .block2 .img2_color').css('display','none');
+                    $('.blocks .block3 .img3_shady').css('display','flex');
+                    $('.blocks .block3 .img3_color').css('display','none');
+  
+                    $('.blocks .block1 .img1_shady').css('display','none');
+                    $('.blocks .block1 .img1_color').css('display','flex');
+
+             }
              
          })
          $(document).on('click','.blocks  .block2',function(){
@@ -370,16 +401,61 @@
 
              if(isactive){
                  $(this).removeClass('active');
-             }else
-             $(this).addClass('active').siblings().removeClass('active');
+                 $('.blocks .block1 .text1').css('color','#202124');
+                 $('.blocks .block3 .text3').css('color','#202124');
+
+
+                 $('.blocks .block2 .img2_shady').css('display','none');
+                 $('.blocks .block2 .img2_color').css('display','flex');
+                 $('.blocks .block1 .img1_shady').css('display','none');
+                 $('.blocks .block1 .img1_color').css('display','flex');
+                 $('.blocks .block3 .img3_shady').css('display','none');
+                 $('.blocks .block3 .img3_color').css('display','flex');
+                }else{
+                    $(this).addClass('active').siblings().removeClass('active');
+                    $('.blocks .block1 .text1').css('color','#C2C2C2');
+                    $('.blocks .block3 .text3').css('color','#C2C2C2');
+                    $('.blocks .block2 .text2').css('color','#202124');
+
+                    $('.blocks .block1 .img1_shady').css('display','flex');
+                    $('.blocks .block1 .img1_color').css('display','none');
+                    $('.blocks .block3 .img3_shady').css('display','flex');
+                    $('.blocks .block3 .img3_color').css('display','none');
+  
+                    $('.blocks .block2 .img2_shady').css('display','none');
+                    $('.blocks .block2 .img2_color').css('display','flex');
+             }
              
          })
          $(document).on('click','.blocks .block3',function(){
              var isactive = $(".blocks .block3").hasClass("active");
+ 
              if(isactive){
                  $(this).removeClass('active');
-             }else
-             $(this).addClass('active').siblings().removeClass('active');
+                 $('.blocks .block2 .text2').css('color','#202124');
+                 $('.blocks .block1 .text1').css('color','#202124');
+
+                $('.blocks .block2 .img2_shady').css('display','none');
+                $('.blocks .block2 .img2_color').css('display','flex');
+                $('.blocks .block1 .img1_shady').css('display','none');
+                $('.blocks .block1 .img1_color').css('display','flex');
+                $('.blocks .block3 .img3_shady').css('display','none');
+                $('.blocks .block3 .img3_color').css('display','flex');
+             }else{
+                 $(this).addClass('active').siblings().removeClass('active');
+                 $('.blocks .block2 .text2').css('color','#C2C2C2');
+                 $('.blocks .block1 .text1').css('color','#C2C2C2');
+                 $('.blocks .block3 .text3').css('color','#202124');
+
+                    $('.blocks .block2 .img2_shady').css('display','flex');
+                    $('.blocks .block2 .img2_color').css('display','none');
+                    $('.blocks .block1 .img1_shady').css('display','flex');
+                    $('.blocks .block1 .img1_color').css('display','none');
+  
+                    $('.blocks .block3 .img3_shady').css('display','none');
+                    $('.blocks .block3 .img3_color').css('display','flex');
+
+             }
              
          })
      </script>
