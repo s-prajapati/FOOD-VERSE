@@ -131,6 +131,13 @@ color: #000000;
   
   
   @media (max-width: 800px) {
+      .top-nav{
+          /* padding: 47.02px 0px 46.34px 0px; */
+          /* justify-content: space-between; */
+          gap: 175px;
+          /* width: 50%; */
+          
+      }
     .menu-button-container {
       display: flex;
     }
@@ -190,7 +197,7 @@ color: #000000;
   }
   
   .logoholder{
-      margin-left:142px;
+      margin-left:30px;
   }
   
 
@@ -338,8 +345,8 @@ color: #FFFEFD;
     justify-content: center;
     gap: 179px;
     margin-top: 75px;
-    margin-left: 200px;
-    margin-right: 200px;
+    /* margin-left: 200px;
+    margin-right: 200px; */
 }
 
 .block{
@@ -431,8 +438,8 @@ background: #000000;
     justify-content: center;
     gap: 179px;
     margin-top: 75px;
-    margin-left: 200px;
-    margin-right: 200px;
+    /* margin-left: 200px;
+    margin-right: 200px; */
 }
 
 /*--------------- Footer----------------------- */
@@ -440,6 +447,7 @@ background: #000000;
 
 
 .footer{
+    overflow-x: hidden;
     box-shadow: 0px -5px 8px 1px rgba(199,199,199,1);
     /* border: #3C3C43 4px solid; */
     margin-top: 391px;
@@ -539,10 +547,14 @@ color: #000000;
         margin-top: 50px;
     }
     .blocks{
-        padding: 0px 50px 0px 50px;
+        padding: 0px 10px 0px 10px;
         gap:100px;
         
     }
+    /* .block{
+        width: 250px;
+        height: 345px;
+    } */
     .adv-block{
         padding: 0px 50px 0px 50px;
         gap: 100px;
