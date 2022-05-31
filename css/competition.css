@@ -697,6 +697,10 @@ color: #000000;
     justify-content: center;
 }
 
+.img1_shady,.img2_shady,.img3_shady{
+    display: none;
+}
+
 .text1,.text2,.text3{
     font-family: 'Poppins';
     font-style: normal;
