@@ -416,6 +416,14 @@ color: #202124;
 
 
 } */
+@media screen and  (max-width:500px){
+    .about_title{
+        width: 300px;
+    }
+    .about_line{
+        width: 300px;
+    }
+}
 
 @media screen and (max-width:1017px){
     .about_row1,.about_row2{
@@ -424,7 +432,10 @@ color: #202124;
     }
     
     
+    
 }
+
+
 
 
 /* ----------------------- */
@@ -965,6 +976,7 @@ color: #FFFFFF;
 
 
 .footer{
+    overflow-x: hidden;
     box-shadow: 0px -5px 8px 1px rgba(199,199,199,1);
     /* width: 100%; */
     /* border: #3C3C43 4px solid; */
