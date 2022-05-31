@@ -22,6 +22,11 @@ html,body{
 }
 
 
+.pt{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
 
 .ill1{
     position: absolute;
@@ -296,6 +301,17 @@ line-height: 33px;
 letter-spacing: 0.03em;
 
 color: #000000;
+}
+
+.pt{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0.03em;
+    
+    color: #000000;
 }
 
 section .title{
