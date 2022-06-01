@@ -684,7 +684,7 @@ background: #AC1F2D;
 }
 
 .case_row{
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: center;
     display: flex;
     flex-direction: row;
@@ -753,12 +753,19 @@ color: #000000;
 
 }
 
-@media screen and (min-width:1555px){
+@media screen and (min-width:1440px) and (max-width:1555px){
+    
     .case_row{
-        flex-wrap: nowrap;
+        /* flex-wrap: wrap; */
+        gap: 20px;
     }
 }
 
+@media screen and (max-width:1440px){
+    .case_row{
+        flex-wrap: wrap;
+    }
+}
 @media screen and (max-width:500px){
     
     .case_block>.case_image>img{
