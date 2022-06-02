@@ -176,6 +176,8 @@ color: #000000;
        display: none;
     }
     .infinity{
+        left: 35%;
+        transform: scale(0.7);
         opacity: 0.4;
     }
     .team{
@@ -483,7 +485,7 @@ color: #202124;
     .block{
         gap: 10px;
         height: auto;
-        margin-bottom: 3em;
+        margin-bottom: 1.5em;
     }
     .block_image>img{
         transform: scale(0.8);
@@ -1455,10 +1457,16 @@ color: #FFFFFF;
         line-height: 40px;
         letter-spacing: -0.015em;
     }
+    .collab_title{
+        width: 60%;
+    }
     .collab_heading,.road_map_heading,.tokenomics_heading,.case_heading,.stakeholder_heading,.about_heading{
         gap: 5px;
         align-items: center;
         
+    }
+    .collab_line{
+        width: 50%;
     }
     .road_map_line{
         width: 160px;
