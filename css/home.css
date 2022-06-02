@@ -1,3 +1,8 @@
+
+html {
+        scroll-behavior: smooth;
+}
+
 body{
     margin: 0px 0px;
     overflow-x: hidden;
@@ -292,7 +297,7 @@ Height:126.33px;
     width: 100%; 
     
 }
-@media screen and (max-width:990px){
+@media screen and (min-width:700px) and (max-width:990px){
     .home_pic{
         margin-top: -150px;
     }
@@ -301,6 +306,18 @@ Height:126.33px;
         height: 90.90px;
         right: 40%;
     }
+}
+
+@media screen and (max-width:700px) {
+    .home_icca{
+        display: none;
+    }
+    .infinity{
+        width: 150px;
+        height: 75px;
+        right: 40%;
+    }
+
 }
 
 
@@ -550,6 +567,7 @@ color: #000000;
     /* -----Stake Holder--- */
 
     .stakeholder{
+        overflow: hidden;
         margin-top: 100px;
         display: flex;
         flex-direction: column;
@@ -627,7 +645,9 @@ background: #AC1F2D;
       
       color: #444444;
       }
-      
+      .slide-container{
+          width: 100vw;
+      }
       
       
       
