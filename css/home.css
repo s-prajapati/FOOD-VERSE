@@ -942,9 +942,9 @@ color: #000000;
     }
 }
 
-@media screen and (min-width:1150px) and (max-width:1400px){
+@media screen and (min-width:600px) and (max-width:1400px){
     .case_row{
-        width: 70vw;
+        /* flex-direction: column; */
     }
     .case_description>.case_block_title{
        
@@ -971,23 +971,46 @@ color: #000000;
     }
 }
 
-@media screen and (max-width:1150px){
+@media screen and (min-width:600px) and (max-width:1150px){
     .case_row{
+        
         flex-wrap: wrap;
     }
+    .case_description>.case_block_title{
+        
+        font-size: 24px;
+        line-height: 42px;
+        /* display: flex;
+        align-items: center; */
+        letter-spacing: -0.015em;
+        
+        }
 }
-@media screen and (max-width:500px){
+@media screen and (max-width:600px){
+    .case_description>.case_block_title{
+        
+    font-size: 24px;
+    line-height: 42px;
+    /* display: flex;
+    align-items: center; */
+    letter-spacing: -0.015em;
+    
+    }
     .case_row{
+        flex-direction: column;
         gap: 50px;
     }
     
     .case_block>.case_image>img{
-        width: 68vw;
+        /* width: 68vw; */
+        /* width: 310px;
+        height: 150px; */
+        transform: scale(0.65);
     }
     .case_block{
         /* justify-content: space-between; */
         width: 70vw;
-        gap: 0;
+        gap: 10px;
         transform: scale(0.9);
         /* height: 596px; */
         
@@ -996,7 +1019,8 @@ color: #000000;
         /* height: 700px; */
     }
     .case_image{
-        margin-top: -50px;
+        margin-top: -34px;
+        
     }
     .case_description{
         margin-top: -20px;
@@ -1006,7 +1030,7 @@ color: #000000;
     .case_text{
         white-space:pre-line;
         }
-    
+
 
     
     
@@ -1453,12 +1477,12 @@ color: #FFFFFF;
 
 @media screen and (max-width:600px) {
     .collab_title,.road_map_title,.tokenomics_title,.case_title,.stakeholder_title,.about_title{
-        font-size: 30px;
+        font-size: 25px;
         line-height: 40px;
         letter-spacing: -0.015em;
     }
     .collab_title{
-        width: 60%;
+        width: 70%;
     }
     .collab_heading,.road_map_heading,.tokenomics_heading,.case_heading,.stakeholder_heading,.about_heading{
         gap: 5px;
@@ -1466,22 +1490,22 @@ color: #FFFFFF;
         
     }
     .collab_line{
-        width: 50%;
+        width: 35%;
     }
     .road_map_line{
-        width: 160px;
+        width: 131px;
     }
     .tokenomics_line{
-        width: 175px;
+        width: 146px;
     }
     .case_line{
-        width: 194px;
+        width: 162px;
     }
     .stakeholder_line{
-        width: 189px;
+        width: 157.5px;
     }
     .about_line{
-        width: 249px;
+        width: 212px;
     }
     .slide>img{
         width: 300px;
