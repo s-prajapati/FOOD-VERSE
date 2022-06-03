@@ -1000,12 +1000,18 @@ color: #000000;
         flex-direction: column;
         gap: 50px;
     }
-    
+    .case_block{
+        overflow: hidden;
+        
+    }
+    .case_block>.case_image{
+        width: auto;
+    }
     .case_block>.case_image>img{
         /* width: 68vw; */
         /* width: 310px;
         height: 150px; */
-        transform: scale(0.65);
+        transform: scale(0.6);
     }
     .case_block{
         /* justify-content: space-between; */
@@ -1019,7 +1025,7 @@ color: #000000;
         /* height: 700px; */
     }
     .case_image{
-        margin-top: -34px;
+        margin-top: -38px;
         
     }
     .case_description{
