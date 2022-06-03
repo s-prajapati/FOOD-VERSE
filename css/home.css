@@ -145,6 +145,15 @@ color: #000000;
   
   
   @media (max-width: 800px) {
+    .menu-button,
+    .menu-button::before,
+    .menu-button::after {
+        
+      height: 4px;
+      width: 35px;
+      transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
+      border-radius: 2px;
+    }
       
       .logoholder>img{
         
@@ -161,6 +170,7 @@ color: #000000;
           gap: 300px;
       } */
     .menu-button-container {
+        
       margin-right: -100px;  
       display: flex;
     }
@@ -178,7 +188,7 @@ color: #000000;
     .infinity{
         left: 35%;
         transform: scale(0.7);
-        opacity: 0.4;
+        opacity: 1;
     }
     .team{
         padding-top: 100px;
@@ -297,7 +307,7 @@ color: #FFFEFD;
 .home_pic{
     overflow-y: hidden;
     /* top: 0%; */
-    margin-top: -122.94px;
+    margin-top: -87px;
     position: relative;
     z-index: -100;
     /* position: absolute; */
@@ -1005,9 +1015,11 @@ color: #000000;
         
     }
     .case_block>.case_image{
+        
         width: auto;
     }
     .case_block>.case_image>img{
+        
         /* width: 68vw; */
         /* width: 310px;
         height: 150px; */
@@ -1015,6 +1027,7 @@ color: #000000;
     }
     .case_block{
         /* justify-content: space-between; */
+        
         width: 70vw;
         gap: 10px;
         transform: scale(0.9);
