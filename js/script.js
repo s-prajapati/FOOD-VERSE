@@ -5,13 +5,13 @@ $(document).ready(function(){
       margin:10,
       nav:true,
       autoplay:true,
-      autoplayTimeout:3000,
+      autoplayTimeout:2000,
 
       autoplayHoverPause:true,
       center: true,
       navText: [
-          "<i class='fa fa-angle-left'></i>",
-          "<i class='fa fa-angle-right'></i>"
+          "<img src='../img/left.svg' class='fa fa-angle-left'></img>",
+          "<img src='../img/right.svg' class='fa fa-angle-left'></img>"
       ],
       responsive:{
           0:{

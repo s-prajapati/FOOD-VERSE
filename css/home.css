@@ -704,6 +704,10 @@ background: #AC1F2D;
           width: 100vw;
       }
       
+      #left_shade{
+          position: absolute;
+          z-index: 100;
+      }
       
       
       
@@ -723,14 +727,26 @@ background: #AC1F2D;
         border: 6px solid #E74237;
         /* border-color: #f44336; */
       }
+      .owl-nav{
+          
+          /* color: #AC1F2D; */
+          
+      }
       .owl-nav .owl-prev {
+          /* width: 100px;
+          height: 100px; */
         position: absolute;
+        
+        background-color: #AC1F2D;
         top: calc(40% - 25px);
         left: 0;
         opacity: 1;
+    
         font-size: 30px !important;
-        z-index: 1;
-      }
+        z-index: 0;
+        /* border: 2px solid red; */
+    
+    }
       .owl-nav .owl-next {
         position: absolute;
         top: calc(40% - 25px);
@@ -1362,14 +1378,18 @@ color: #FFFFFF;
     /* justify-content: center; */
 }
 
+
+
 .news_input>input{
-    width: 460px;
-    height: 77px;
+    width: 468px;
+    height: 58px;
     background: #FFFFFF;
 box-shadow: inset 4px -4px 4px rgba(85, 129, 194, 0.25), inset -4px 4px 4px rgba(85, 129, 194, 0.25);
 border-radius: 8px;
     font-size: 14px;
-    padding-left: 21px;
+    padding:15px 295px 15px 25px;
+    
+
 
 
 }
@@ -1410,17 +1430,20 @@ color: #C2C2C2;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: flex-start;
-    padding: 16.4px 41px;
-    width: 399px;
-    height: 77px;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+
+    width: 269px;
+    height: 57px;
     border: 2px solid #FFFFFF;
     border-radius: 9.84px;
 
     font-family: 'Poppins';
 font-style: normal;
 font-weight: 700;
-font-size: 16px;
+font-size: 18px;
 line-height: 36px;
 letter-spacing: -0.015em;
 text-align: center;
@@ -1436,7 +1459,9 @@ color: #FFFFFF;
    
 }
 
-@media screen and (max-width:1090px) {
+
+
+@media screen and (max-width:1595px) {
     .dotted{
         display: none;
     }
