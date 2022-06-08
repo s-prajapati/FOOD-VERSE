@@ -29,7 +29,7 @@ body{
     /* height: 151px; */
     
     padding: 19.02px 142px 18.34px 142px;
-    background: rgba(231, 66, 55, 0.3);
+    background: rgba(231, 66, 55, 0.5);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -727,18 +727,14 @@ background: #AC1F2D;
         border: 6px solid #E74237;
         /* border-color: #f44336; */
       }
-      .owl-nav{
-          
-          /* color: #AC1F2D; */
-          
-      }
+      
       .owl-nav .owl-prev {
           /* width: 100px;
           height: 100px; */
         position: absolute;
         
         background-color: #AC1F2D;
-        top: calc(40% - 25px);
+        top: calc(42% - 25px);
         left: 0;
         opacity: 1;
     
@@ -749,7 +745,7 @@ background: #AC1F2D;
     }
       .owl-nav .owl-next {
         position: absolute;
-        top: calc(40% - 25px);
+        top: calc(42% - 25px);
         right: 0;
         opacity: 1;
         font-size: 30px !important;
@@ -1652,7 +1648,7 @@ color: #000000;
 }
 
 .social{
-   
+    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1662,7 +1658,8 @@ color: #000000;
 .social-media{
     display: flex;
     flex-direction: row;
-    margin-right: -20px;
+    margin-left: -65px;
+    /* margin-right: -20px; */
     gap: 30px;
 }
 
@@ -1750,7 +1747,7 @@ color: #000000;
     .social-media{
         display: flex;
         gap: 30px;
-        margin-left: -20px;
+        margin-left: -45px;
         /* margin-left: -70px; */
     }
 }
@@ -1770,14 +1767,20 @@ color: #000000;
         height: 8em;
     }
     .social-media{
-        margin-right: auto;
+        margin-left: -45px;
+        /* margin-right: auto; */
     }
     
 }
 
 
 
+a:hover{
+    text-decoration: none;
+    color: #000000;
+    
 
+}
 /* ---------------------------------- */
 
 
