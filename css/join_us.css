@@ -340,7 +340,7 @@ color: #000000;
     justify-content: center;
     /* align-items: center; */
     gap: 125px;
-    margin-top: 155px;
+    margin-top: 100px;
 }
 
 .block1 ,.block2 ,.block3{
@@ -411,7 +411,9 @@ color: #202124;
 
 .footer{
     overflow-x: hidden;
-    box-shadow: 0px -5px 8px 1px rgba(199,199,199,1);
+    /* box-shadow: 0px -5px 8px 1px rgba(199,199,199,1); */
+    border-top: 2px solid rgba(231, 66, 55, 0.5);
+
     /* width: 100%; */
     /* border: #3C3C43 4px solid; */
     margin-top: 114px;
