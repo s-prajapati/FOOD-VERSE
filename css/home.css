@@ -10,7 +10,7 @@ body{
 
 .main{
     /* height: 100vh; */
-    overflow: hidden;
+    /* overflow: hidden; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -306,7 +306,7 @@ color: #FFFEFD;
 /* Home_Pic */
 .home_pic{
     width: 100vw;
-    overflow-y: hidden;
+    /* overflow-y: hidden; */
     /* top: 0%; */
     margin-top: -105px;
     position: relative;
