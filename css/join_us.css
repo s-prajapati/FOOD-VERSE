@@ -397,12 +397,33 @@ color: #202124;
         margin-right: -100px;
     }
     .join-us{
-        margin-top: 40px;
+        margin-top: 0px;
     }
+    
     .blocks{
         gap: 75px;
     }
 
+}
+
+@media screen and (max-width:600px){
+
+    .block1,.block2,.block3{
+        transform: scale(0.8);
+    }
+    .heading{
+        font-size: 30px;
+    }
+    .line{
+        width: 105px;
+        margin-top: -5px;
+    }
+    .tagline{
+        font-size: 20px;
+    }
+    /* .blocks{
+        gap: 75px;
+    } */
 }
 
 /*--------------- Footer----------------------- */
