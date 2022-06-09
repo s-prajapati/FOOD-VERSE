@@ -591,7 +591,23 @@ color: #202124;
 }
 
  @media screen and (max-width:600px) {
-     
+     /* #categories{
+         width: 100vw;
+     } */
+
+    /* .block1,.block2,.block3{
+        margin-left: -2em;
+        margin-right: -2em;
+    } */
+    /* #categories .block1_text,.block2_text,.block3_text{
+        margin-left: -2em;
+        margin-right: -2em;
+    } */
+    
+    .blocks{
+        margin-left: -2em;
+        margin-right: -2em;
+    }
     #categories .block1_text .title,.block2_text .title, .block3_text .title{
         font-size: 24px;
         line-height: 40px;
