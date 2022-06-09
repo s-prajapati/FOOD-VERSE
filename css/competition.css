@@ -601,11 +601,16 @@ color: #202124;
         line-height: 35px;
         margin-top: 25px;
     }
+    
     .intro{
+        
         padding-left: 60px;
     }
     .phone_card{
         margin-left: 100px;
+    }
+    .wrapper{
+        margin-top: -80px;
     }
     
  }
