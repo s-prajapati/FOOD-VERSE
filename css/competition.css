@@ -405,6 +405,7 @@ padding-left: 2rem;
         /* text-align: center; */
     }
     #firstcontainer .wrapper .intro{
+
         /* align-items: center; */
         /* text-align: center; */
     }
@@ -601,7 +602,7 @@ color: #202124;
         margin-top: 25px;
     }
     .intro{
-        padding-left: 20px;
+        padding-left: 60px;
     }
     .phone_card{
         margin-left: 100px;
