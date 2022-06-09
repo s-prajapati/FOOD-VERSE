@@ -389,7 +389,7 @@ padding-left: 2rem;
 
 @media screen and (max-width:1230px) {
     #firstcontainer{
-        height: max-content;
+        height: 540px;
         width: 100vw;
     }
     
@@ -492,6 +492,10 @@ padding-left: 2rem;
 @media screen and (max-width:600px) {
     .categheading{
         font-size: 30px;
+        
+    }
+    #categories{
+        margin-top: -40px;
     }
 
 }
@@ -608,6 +612,10 @@ color: #202124;
     }
     .phone_card{
         margin-left: 100px;
+        margin-top: -50px;
+    }
+    .ill2{
+        display: none;
     }
     .wrapper{
         margin-top: -80px;
@@ -726,7 +734,7 @@ color: #000000;
     .foot-img>a>img{
         width: 10em;
         height: 5em;
-        margin-left: 50px;
+        margin-left: 70px;
 
     }
     #ic{
