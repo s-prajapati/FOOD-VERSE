@@ -1386,14 +1386,14 @@ color: #FFFFFF;
 
 
 
-.news_input>input{
+input.new_ip{
     width: 468px;
     height: 58px;
     background: #FFFFFF;
 box-shadow: inset 4px -4px 4px rgba(85, 129, 194, 0.25), inset -4px 4px 4px rgba(85, 129, 194, 0.25);
 border-radius: 8px;
     font-size: 14px;
-    padding:15px 295px 15px 25px;
+    /* padding:15px 295px 15px 25px; */
     
 
 
@@ -1500,7 +1500,7 @@ color: #FFFFFF;
     }
     
     
-    .news_input>input{
+    input.new_ip{
         /* background-color: blue; */
         
         width: 300px;
