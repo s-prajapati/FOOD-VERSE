@@ -1319,6 +1319,7 @@ background: #AC1F2D;
 /* newsletter */
 
 .news{
+    overflow-x: hidden;
     position: relative;
     display: flex;
     flex-direction: column;
