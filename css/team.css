@@ -455,18 +455,38 @@ background: #000000;
     .team{
         margin-top: 50px;
     }
+    
     .blocks{
+        /* margin-top: -200px; */
         padding: 0px 10px 0px 10px;
-        gap:100px;
+        gap:50px;
+        /* transform: scale(0.8); */
         
     }
+    .block,.block1{
+        transform: scale(0.8);
+    }
+    .heading{
+        font-size: 30px;
+
+    }
+    .line{
+        width: 85px;
+        margin-top: -10px;
+    }
+    .line2{
+        width: 115px;
+    }
+    
     /* .block{
         width: 250px;
         height: 345px;
     } */
     .adv-block{
+        /* margin-top: 0px; */
         padding: 0px 50px 0px 50px;
-        gap: 100px;
+        gap: 50px;
+        /* transform: scale(0.8); */
     }
 }
 

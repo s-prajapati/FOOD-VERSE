@@ -19,7 +19,7 @@ body{
 }
 
 .home-navbar{
-   
+    
     display: flex;
     flex-direction: column;
 }
